@@ -1,0 +1,61 @@
+@media(max-width: 1200px){
+.main_banner_section .banner_content .h_banner_img img:first-child{left: 50%!important;}
+.main_banner_section .banner_content .h_banner_info h1{font-size:45px;}
+.feature_section .f_inner h3 {font-size: 20px;}
+.our_product .prod_inner{padding: 15px;}
+.our_product .prod_inner .prod_dtl .pinfo_top .comp_info img{width: 35px;height: 35px;}
+.our_product .prod_inner .prod_dtl .pinfo_top .comp_info h3{font-size: 20px;font-weight: 500;}
+.our_product .prod_inner .prod_dtl .pinfo_top .comp_ratt ul li i{font-size: 14px;}
+.latest_blog .media img{width: 100px;height: 100px;}
+}
+@media(max-width: 991px){
+.equal_space{padding: 50px 0px;}
+.extra_equal_space{padding: 60px 0px;}
+footer .foot_top{padding-bottom: 40px;}
+h4.sub_heading, .offer_section .offer_info h4{font-size: 14px;}
+h2{font-size: 28px!important;}
+.offcanvas{top: 0;left: 0;}
+.offcanvas img{width: 200px;padding-right: 30px;}
+.offcanvas .nav-item .nav-link {color: var(--subheading)!important;}
+.offcanvas .nav-item .nav-link.active {color: var(--subheading)!important;}
+.offcanvas .log_sign .nav-item:first-child .nav-link{border: 1px solid var(--green)!important;margin-bottom: 10px;}
+.offcanvas .dropdown-menu{margin-bottom: 10px;}
+.feature_section .f_inner{margin-top: 20px;}
+.offer_section .offer_info{padding: 0 15px 20px;}
+.offer_section .offer_inner{background-position: 280px 300px;} 
+.offer_section .offer_inner .off_dtl{padding: 15px;}
+.offer_section .offer_inner .off_dtl h3{font-size: 24px;}
+.happy_clients .count_up.b_right{border: none;}
+.happy_clients .count_up p{font-size: 26px;padding-bottom: 5px;}
+.happy_clients .count_up h3{font-size: 16px;font-weight: 400;}
+.latest_blog .call_to_action{margin-bottom: 20px;}
+.latest_blog .call_to_action .cta_info h3{font-size: 28px;}
+footer .foot_about{margin-bottom: 25px;}
+footer .foot_info h3{padding-bottom: 20px;}
+footer .foot_info ul.item_list{padding-bottom: 15px;}
+}
+
+@media(max-width: 767px){
+.main_banner_section .banner_content{align-items: start;padding: 100px 0 0;}
+.main_banner_section .banner_content .h_banner_info{margin: 20px 0 0;}
+.main_banner_section .banner_content .h_banner_info h1{font-size:40px;font-weight: 600;line-height: 40px;margin-bottom: 15px;}
+.main_banner_section .banner_content .h_banner_info p{font-size: 16px;line-height: 28px;margin-bottom: 20px;font-weight: 400;}
+.main_banner_section .banner_content .h_banner_info a{display: block;width: fit-content;padding: 12px 30px;}
+.main_banner_section .banner_content .h_banner_img{position: inherit;}
+.main_banner_section .banner_content .h_banner_img img:first-child {left: 10% !important;top: 65%;max-width: 150px;}
+.main_banner_section .banner_content .h_banner_img img:nth-child(2){width: 100%;max-width: 420px;right: 0;}
+.main_banner_section .banner_content .h_banner_img img:last-child {max-width: 175px;}
+.feature_section .f_inner{padding: 15px;}
+.offer_section .offer_inner{background-position: 450px 250px;}
+.trading_investment .trd_inv_inner{padding: 0px;}
+.happy_clients .count_up{margin-top: 25px;}
+.our_product .prod_info{padding: 0 15px 0px;}
+.latest_blog .media img{width: 70px;height:70px;}
+}
+
+@media(max-width: 576px){
+.main_banner_section .banner_content{padding: 80px 0 0;}
+.main_banner_section .banner_content .h_banner_img img:first-child{max-width: 110px;left: 2%;bottom: 30%;}
+.main_banner_section .banner_content .h_banner_img img:last-child {height: 100px;}
+.feature_section .f_inner.active{margin-top: 0px;}
+}
